@@ -12,3 +12,5 @@ services:
       - ./data/db:/var/lib/postgresql/data
     environment:
       - POSTGRES_PASSWORD=toor
+    ports:
+      - "5432:5432"
